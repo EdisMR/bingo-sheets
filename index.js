@@ -58,3 +58,11 @@ function restartGame() {
 		markUiElements()
 	}
 }
+
+function fullscreen() {
+	if (document.fullscreenElement) {
+		document.exitFullscreen()
+	} else {
+		document.documentElement.requestFullscreen()
+	}
+}
