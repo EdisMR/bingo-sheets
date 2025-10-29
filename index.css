@@ -69,6 +69,8 @@ h1 {
 	grid-template-columns: repeat(5, 40px);
 	padding: 0px 0px 10px 0px;
 	font-size: 20px;
+	text-align: center;
+	gap: 4px;
 }
 
 .line-names div {
@@ -113,6 +115,10 @@ h1 {
 		grid-template-rows: repeat(5, 50px);
 	}
 
+	.line-names {
+		grid-template-columns: repeat(5, 50px);
+	}
+
 	.sheet-number {
 		font-size: 22px !important;
 	}
@@ -122,6 +128,10 @@ h1 {
 	.numbers-grid {
 		grid-template-columns: repeat(5, 40px);
 		grid-template-rows: repeat(5, 40px);
+	}
+
+	.line-names {
+		grid-template-columns: repeat(5, 40px);
 	}
 
 	.sheet-number {
