@@ -1,0 +1,102 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	user-select: none;
+}
+
+html {
+	background-color: rgb(3, 26, 29);
+	color: rgb(226, 226, 226);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, Roboto, sans-serif;
+}
+
+h1{
+	margin: 10px 0px 50px 10px;
+}
+
+.sheet-main-container {
+	/* border: 2px solid yellow; */
+}
+
+.sheets-organizer {
+	/* border: 2px solid green; */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+
+.sheet-element {
+	/* border: 2px solid rgb(255, 0, 43); */
+	font-weight: bold;
+	border-radius: 8px;
+}
+
+.sheet-title-container {
+	/* border: 2px solid aqua; */
+	text-align: center;
+	padding: 10px 0px;
+}
+
+.sheet-numbers-grid-container {
+	/* border: 2px solid blue; */
+	padding: 0px 7px 10px 7px;
+}
+
+.numbers-grid {
+	/* border: 2px solid rgb(199, 55, 144); */
+	display: grid;
+	grid-template-columns: repeat(5, 40px);
+	grid-template-rows: repeat(5, 40px);
+	gap: 4px;
+}
+
+.sheet-number {
+	/* border: 2px solid rgb(163, 129, 101); */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgba(255, 255, 255, 0.158);
+	color: rgb(255, 255, 255);
+	border-radius: 1%;
+	font-size: 18px;
+}
+
+.line-names {
+	display: grid;
+	grid-template-columns: repeat(5, 40px);
+	padding: 0px 0px 10px 0px;
+	font-size: 20px;
+}
+
+.line-names div {
+	text-align: center;
+}
+
+.sheet-number.marked {
+	background-color: rgba(255, 255, 255, 0.658);
+	color: rgb(44, 44, 44);
+	border-radius: 50%;
+}
+
+.btn-actions-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 200px;
+	margin-bottom: 200px;
+}
+
+.btn-restart-game{
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 8px;
+	background-color: rgba(0, 255, 255, 0.315);
+	color: white;
+}
