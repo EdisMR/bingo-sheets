@@ -36,12 +36,12 @@ ballsToListen.forEach(element => {
 		if (markedNumbers.has(numberToMark)) {
 			alertify.confirm('¿Eliminar marca del número ' + numberToMark + '?', function () {
 				markedNumbers.delete(numberToMark)
-				alertify.warning('Marca eliminada: ' + numberToMark, 'warning', 5)
+				alertify.warning('Marca eliminada: ' + numberToMark, 'warning', 10)
 				markElements()
 			})
 		} else {
 			markedNumbers.add(numberToMark)
-			alertify.notify('Marcado: ' + numberToMark, 'success', 5)
+			alertify.notify('Marcado: ' + numberToMark, 'success', 10)
 			markElements()
 		}
 		markElements()
