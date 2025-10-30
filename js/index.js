@@ -52,6 +52,8 @@ function restartGame() {
 	alertify.confirm('¿Reiniciar el juego?', function () {
 		markedNumbers.clear()
 		markElements()
+		saveGame()
+		alertify.success('Juego reiniciado', 'success', 10)
 	})
 }
 

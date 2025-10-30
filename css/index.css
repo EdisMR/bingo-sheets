@@ -149,7 +149,7 @@ h1 {
 	text-align: center;
 }
 
-.noclicknumber{
+.noclicknumber {
 	font-family: 'Times New Roman', Times, serif;
 	cursor: not-allowed;
 	font-size: 30px;
@@ -163,42 +163,144 @@ footer {
 
 /* CELLPHONE */
 @media screen and (300px < width < 400px) and (orientation: portrait) {
+	h1 {
+		font-size: 22px;
+	}
+
 	.sheets-organizer {
-		gap: 50px;
+		gap: 10px;
 	}
 
 	.numbers-grid {
-		grid-template-columns: repeat(5, 50px);
-		grid-template-rows: repeat(5, 50px);
+		grid-template-columns: repeat(5, 30px);
+		grid-template-rows: repeat(5, 30px);
 	}
 
 	.line-names {
-		grid-template-columns: repeat(5, 50px);
+		grid-template-columns: repeat(5, 30px);
 	}
 
 	.sheet-number {
-		font-size: 22px !important;
+		font-size: 15px !important;
+	}
+
+	.sheet-number-no-data {
+		font-size: 12px !important;
+	}
+
+	.selectNumbers-organizer {
+		gap: 30px;
 	}
 }
 
-@media screen and (550px < width < 700px) and (orientation: portrait) {
+@media screen and (800px < width < 900px) and (orientation: landscape) {
+	h1 {
+		font-size: 20px;
+	}
+
 	.numbers-grid {
-		grid-template-columns: repeat(5, 40px);
-		grid-template-rows: repeat(5, 40px);
+		grid-template-columns: repeat(5, 30px);
+		grid-template-rows: repeat(5, 30px);
 	}
 
 	.line-names {
-		grid-template-columns: repeat(5, 40px);
+		grid-template-columns: repeat(5, 30px);
 	}
 
 	.sheet-number {
-		font-size: 22px !important;
+		font-size: 14px !important;
+	}
+
+	.sheet-number-no-data {
+		font-size: 12px !important;
+	}
+
+	.sheets-organizer {
+		gap: 22px;
+	}
+
+	.selectNumbers-organizer {
+		gap: 30px;
+	}
+
+	.numberball{
+		width: 42px;
+		height: 42px;
+	
+	}
+
+	.numbers-group {
+		gap: 9px;
 	}
 }
 
 /* TABLET */
-@media screen and (900px < width < 1000px) and (orientation: landscape) {
+@media screen and (550px < width < 700px) and (orientation: portrait) {
+	h1 {
+		font-size: 20px;
+	}
+
 	.sheets-organizer {
-		gap: 60px;
+		gap: 22px;
+	}
+
+	.numbers-grid {
+		grid-template-columns: repeat(5, 30px);
+		grid-template-rows: repeat(5, 30px);
+	}
+
+	.line-names {
+		grid-template-columns: repeat(5, 30px);
+	}
+
+	.sheet-number {
+		font-size: 15px !important;
+	}
+
+	.sheet-number-no-data {
+		font-size: 12px !important;
+	}
+
+	.selectNumbers-organizer {
+		gap: 40px;
+	}
+
+	.numbers-group {
+		gap: 23px;
+	}
+}
+
+@media screen and (900px < width < 1000px) and (orientation: landscape) {
+	h1 {
+		font-size: 20px;
+	}
+
+	.sheets-organizer {
+		gap: 20px;
+	}
+
+	.numbers-grid {
+		grid-template-columns: repeat(5, 38px);
+		grid-template-rows: repeat(5, 38px);
+	}
+
+	.line-names {
+		grid-template-columns: repeat(5, 38px);
+	}
+
+	.sheet-number {
+		font-size: 15px !important;
+	}
+
+	.sheet-number-no-data {
+		font-size: 12px !important;
+	}
+
+	.selectNumbers-organizer {
+		gap: 35px;
+	}
+
+	.numbers-group {
+		gap: 9px;
 	}
 }
