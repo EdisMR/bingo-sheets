@@ -7,6 +7,7 @@ alertify.defaults.notifier.position = 'top-center';
 alertify.defaults.closable = false
 
 function markElements() {
+	window.scrollTo(0, 0)
 	sheetNumbers.forEach(element => {
 		element.classList.remove('marked')
 	})
